@@ -1,14 +1,19 @@
 package com.qa.oop.inheritance;
 
-public class Human extends Mammal {
+public class Human extends Bipedal {
 	private String name;
 	private int age;
 	
 
-	public Human(String name, int age,int legs, boolean laysEggs) {
-		super(laysEggs, legs);
+	public Human(String name, int age) {
+		super(false);
 		this.name = name;
 		this.age = age;
+	}
+	
+	public void breastfeedYoung () {
+		
+		System.out.println("feeding baby... ");
 	}
 
 

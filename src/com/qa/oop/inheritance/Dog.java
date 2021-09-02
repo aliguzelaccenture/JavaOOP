@@ -5,14 +5,19 @@ public class Dog extends Mammal {
 	private String name;
 	private int dogYears;
 	
-	public Dog(String name, int dogYears, int legs, boolean laysEggs) {
-		super(laysEggs, legs);
+	public Dog(String name, int dogYears) {
+		super(false, 4);
 		this.name = name;
 		this.dogYears = dogYears;
 	}
 	
 	public void bark() {
 		System.out.println("Woof woof!");
+	}
+	
+public void breastfeedYoung () {
+		
+		System.out.println("feeding puppy... ");
 	}
 
 	public String getName() {
