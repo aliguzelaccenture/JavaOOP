@@ -1,6 +1,6 @@
 package com.qa.oop.inheritance;
 
-public class Mammal {
+public abstract class Mammal {
 	private boolean laysEggs;
 	private int legs;
 	public boolean isLaysEggs() {
@@ -16,9 +16,8 @@ public class Mammal {
 		this.legs = legs;
 	}
 	
-	public void breastfeedYoung() {
-		System.out.println("Feeding..");
-	}
+	public abstract void breastfeedYoung();
+	
 	public Mammal(boolean laysEggs, int legs) {
 		super();
 		this.laysEggs = laysEggs;

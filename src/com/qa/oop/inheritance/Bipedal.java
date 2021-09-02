@@ -1,6 +1,6 @@
 package com.qa.oop.inheritance;
 
-public class Bipedal extends Mammal {
+public abstract class Bipedal extends Mammal {
 	
 	private boolean tail;
 
@@ -16,6 +16,8 @@ public class Bipedal extends Mammal {
 		super(false, 2);
 		this.tail = tail;
 	}
+
+	public abstract void breastfeedYoung();
 	
 
 }
