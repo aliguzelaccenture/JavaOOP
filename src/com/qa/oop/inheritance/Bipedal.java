@@ -19,5 +19,6 @@ public abstract class Bipedal extends Mammal {
 
 	public abstract void breastfeedYoung();
 	
+	
 
 }
