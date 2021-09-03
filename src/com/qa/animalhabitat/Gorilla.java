@@ -7,7 +7,7 @@ public class Gorilla {
 	private boolean leader;
 	
 	public void beatChest() {
-		System.out.println("Oo Oo Oo Aa Aa");
+		System.out.println(this.name + ": " + "Oo Oo Oo Aa Aa");
 	}
 	
 	public Gorilla(String name, String type, int strength, boolean leader) {
